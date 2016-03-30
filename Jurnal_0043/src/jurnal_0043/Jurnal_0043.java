@@ -18,11 +18,16 @@ public class Jurnal_0043 {
        
         System.out.print("Input   : ");
         int number = new Scanner(System.in).nextInt();
- 
+        int temp = 0;
+        int sum = 0;
         System.out.println("Output : ");
         for(int i=1; i<=number; i++){
-            System.out.print(fibonacci(i) +" ");
+            temp = fibonacci(i);
+            sum = sum+temp;
+            
+            
         }
+        System.out.println(sum);
     } 
  
     
